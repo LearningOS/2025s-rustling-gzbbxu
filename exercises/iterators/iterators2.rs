@@ -11,7 +11,7 @@
 // "hello" -> "Hello"
 pub fn capitalize_first(input: &str) -> String {
     let mut chars = input.chars();
-    match chars.next() {
+    match chars.next() { 
         None => String::new(),
         Some(first) => {
             println!("rist = {}", first);
